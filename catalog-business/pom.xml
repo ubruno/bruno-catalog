@@ -8,7 +8,10 @@
 
 	<!-- Shared version number properties -->
 	<properties>
-		<org.springframework.version>3.0.5.RELEASE</org.springframework.version>
+		<env>dev</env>
+		<org.springframework.version>4.2.1.RELEASE</org.springframework.version>
+<!-- 		<org.hibernate.version>4.3.5.Final</org.hibernate.version> -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -17,6 +20,58 @@
 			<artifactId>mongo-java-driver</artifactId>
 			<version>3.0.2</version>
 		</dependency>
+
+
+
+	<!-- Core utilities used by other modules. Define this if you use Spring 
+		Utility APIs (org.springframework.core.*/org.springframework.util.*) -->
+		<!-- Spring -->
+		<!-- 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>			
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		-->
+		<!-- Spring -->
+		
+		
 
 	</dependencies>
 
