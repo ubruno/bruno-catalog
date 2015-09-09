@@ -5,7 +5,6 @@ import java.io.Serializable;
 public class MovieVO implements Serializable {
 
 	private static final long serialVersionUID = 3525696428754028322L;
-	
 
 	private String id;
 	private String title;
@@ -51,8 +50,5 @@ public class MovieVO implements Serializable {
 	public void setReleaseDate(String releaseDate) {
 		this.releaseDate = releaseDate;
 	}
-	
-	
-	
 
 }

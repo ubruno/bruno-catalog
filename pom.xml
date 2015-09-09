@@ -26,6 +26,7 @@
 	
 	<modules>
 		<module>catalog-business</module>
+		<module>catalog-webservice</module>
 	</modules>
 
 </project>

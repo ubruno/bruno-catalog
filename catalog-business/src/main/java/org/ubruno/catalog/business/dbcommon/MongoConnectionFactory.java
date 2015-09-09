@@ -9,12 +9,8 @@ public class MongoConnectionFactory {
 	public static MongoClient mongoClient;
 
 	public static MongoDatabase getConnection() {
-
 		if (mongoClient == null) {
-
 			mongoClient = new MongoClient(new ServerAddress("localhost", 27017));
-
-
 		}
 		MongoDatabase md = mongoClient.getDatabase("catalog");
 		return md;
